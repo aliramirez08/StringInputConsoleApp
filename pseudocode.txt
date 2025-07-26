@@ -1,0 +1,17 @@
+BEGIN
+    DISPLAY "This program will concatenate two strings three times with varying lengths."
+
+    REPEAT 3 TIMES
+        DISPLAY "Enter the first string: "
+        INPUT firstString
+
+        DISPLAY "Enter the second string: "
+        INPUT secondString
+
+        concatenatedString ← firstString + " " + secondString
+
+        DISPLAY "Concatenated result: " + concatenatedString
+    END REPEAT
+
+    DISPLAY "Program finished successfully."
+END
